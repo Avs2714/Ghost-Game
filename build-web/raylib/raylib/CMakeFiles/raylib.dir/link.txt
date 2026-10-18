@@ -1,0 +1,2 @@
+/home/dell/emsdk/upstream/emscripten/emar qc libraylib.a CMakeFiles/raylib.dir/rcore.c.o CMakeFiles/raylib.dir/rshapes.c.o CMakeFiles/raylib.dir/rtext.c.o CMakeFiles/raylib.dir/rtextures.c.o CMakeFiles/raylib.dir/raudio.c.o CMakeFiles/raylib.dir/rmodels.c.o
+/home/dell/emsdk/upstream/emscripten/emranlib libraylib.a

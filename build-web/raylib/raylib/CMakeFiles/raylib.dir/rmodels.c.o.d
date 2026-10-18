@@ -1,0 +1,54 @@
+raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o: \
+  /home/dell/raylib/src/rmodels.c /home/dell/raylib/src/raylib.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdarg.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/stdarg.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stdarg.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg_header_macro.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg___gnuc_va_list.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg_va_list.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg_va_arg.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg___va_copy.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stdarg_va_copy.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/stdbool.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stdbool.h \
+  /home/dell/raylib/src/config.h /home/dell/raylib/src/rlgl.h \
+  /home/dell/raylib/src/raymath.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/stddef.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stddef.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_header_macro.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_ptrdiff_t.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_size_t.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_wchar_t.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_null.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__stddef_offsetof.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/stdint.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/compat/string.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/string.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/strings.h \
+  /home/dell/raylib/src/external/tinyobj_loader_c.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/assert.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  /home/dell/raylib/src/external/cgltf.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/limits.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/float.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__float_header_macro.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__float_float.h \
+  /home/dell/emsdk/upstream/lib/clang/24/include/__float_infinity_nan.h \
+  /home/dell/raylib/src/external/vox_loader.h \
+  /home/dell/raylib/src/external/m3d.h \
+  /home/dell/raylib/src/external/par_shapes.h \
+  /home/dell/emsdk/upstream/emscripten/cache/sysroot/include/unistd.h

@@ -1,0 +1,1 @@
+/home/dell/emsdk/upstream/emscripten/em++ -sUSE_GLFW=3 -sASYNCIFY --preload-file /home/dell/Desktop/c++/Ghost-Game/src/sprites@/sprites -sEXPORTED_RUNTIME_METHODS=ccall CMakeFiles/GhostGame.dir/src/main.cpp.o -o GhostGame.html  raylib/raylib/libraylib.a 
