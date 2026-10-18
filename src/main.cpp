@@ -142,7 +142,7 @@ int main()
                 brooms[i].scored=true;
                 score+=2;        
             }
-            if((brooms[i].Collide(frameRect1)==true && game_over==false) || position.y>=GetScreenHeight())  
+            if((brooms[i].Collide(frameRect1)==true && game_over==false) || position.y+frameRect1.height/2>=GetScreenHeight())  
             {
             game_over=true;
             }  
