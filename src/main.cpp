@@ -16,7 +16,7 @@ class Broom
       Broom(int i,Texture2D texture,int gapy)
     {
         broom_texture=texture;
-        position.x=600*(i/2)+80;   
+        position.x=400*(i/2)+80;   
         this->gapy=gapy;
     }
     
@@ -61,10 +61,17 @@ int main()
     InitWindow(screen_width,screen_height,"Ghost");
     SetTargetFPS(60);   
 
+    InitAudioDevice();
+    Music bgm=LoadMusicStream("sprites/background_music.mp3");
+    PlayMusicStream(bgm);
+    SetMusicVolume(bgm,0.9f);
+    Sound jump=LoadSound("sprites/jump_sound.mp3");
+    SetSoundVolume(jump,0.1f);
+
     Texture2D broom_texture=LoadTexture("sprites/broom.png");
     Texture2D bg=LoadTexture("sprites/image.png");
     Texture2D ghost=LoadTexture("sprites/ghost.png");
-    Vector2 position={640.0f,400.0f};
+    Vector2 position={200.0f,400.0f};
     Rectangle frameRect1={position.x-ghost.width/8,position.y-ghost.height/8,(float)ghost.width/4,(float)ghost.height/4};
     int ghost_velocity;
     
@@ -73,6 +80,7 @@ int main()
  
     while(WindowShouldClose()==false)
     {
+      
          if((!game_start || game_over==true) && IsKeyPressed(KEY_SPACE))
     {
         game_start=true;
@@ -96,6 +104,7 @@ int main()
         DrawText(TextFormat("Score:%d ",score),10,10,20,RED); 
     }
      BeginDrawing();
+    
     if(!game_start)
     {
         DrawText("WELCOME TO THE GHOST GAME!\n PRESS SPACE TO START",320,screen_height/2,52,RED);   
@@ -103,9 +112,10 @@ int main()
     }
     else
     {
-            if(IsKeyDown(KEY_SPACE)) 
+            if(IsKeyPressed(KEY_SPACE)) 
             {
                 ghost_velocity=-20;
+                PlaySound(jump);
             }
             else
             {
@@ -127,7 +137,7 @@ int main()
         {
             if(!game_over)
             {
-            
+             UpdateMusicStream(bgm);
             brooms[i+1].position.x=brooms[i].position.x;
             if(brooms[i].position.x>newX)
                 {
@@ -181,7 +191,9 @@ int main()
     }
       EndDrawing();
 }
-    
+    UnloadMusicStream(bgm);
+    UnloadSound(jump);
+    CloseAudioDevice();
     UnloadTexture(broom_texture);
     UnloadTexture(ghost);
     UnloadTexture(bg);
