@@ -19,5 +19,6 @@ if(EMSCRIPTEN)
         "-sASYNCIFY"
         "--preload-file"
         "${CMAKE_SOURCE_DIR}/src/sprites@/sprites"
+	"-sALLOW_MEMORY_GROWTH=1"
     )
 endif()
