@@ -76,7 +76,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpwqpb0dca.js
+// include: /tmp/tmpxd9u3is7.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -200,25 +200,25 @@ Module['FS_createPath']("/", "sprites", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/sprites/broom.png", "start": 0, "end": 949411}, {"filename": "/sprites/ghost.png", "start": 949411, "end": 950112}, {"filename": "/sprites/image.png", "start": 950112, "end": 1180895}], "remote_package_size": 1180895});
+    loadPackage({"files": [{"filename": "/sprites/background_music.mp3", "start": 0, "end": 4213604}, {"filename": "/sprites/broom.png", "start": 4213604, "end": 5163015}, {"filename": "/sprites/ghost.png", "start": 5163015, "end": 5163716}, {"filename": "/sprites/image.png", "start": 5163716, "end": 5394499}, {"filename": "/sprites/jump_sound.mp3", "start": 5394499, "end": 5466019}], "remote_package_size": 5466019});
 
   })();
 
-// end include: /tmp/tmpwqpb0dca.js
-// include: /tmp/tmpcurj273x.js
+// end include: /tmp/tmpxd9u3is7.js
+// include: /tmp/tmpcfibheme.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpcurj273x.js
-// include: /tmp/tmp4ibt2w_x.js
+  // end include: /tmp/tmpcfibheme.js
+// include: /tmp/tmpq5r4l6ms.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmp4ibt2w_x.js
+  // end include: /tmp/tmpq5r4l6ms.js
 
 
 var programArgs = [];
